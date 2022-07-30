@@ -1,0 +1,63 @@
+{
+  "name": "react-table-redux-toolkit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --reporter verbose",
+    "test:ui": "vitest --ui"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "^0.27.2",
+    "daisyui": "^2.19.0",
+    "date-fns": "^2.28.0",
+    "install": "^0.13.0",
+    "prettier-plugin-tailwindcss": "^0.1.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pagination-bar": "^1.0.8",
+    "react-redux": "^8.0.2",
+    "react-table": "^7.8.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.5",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/node": "^18.0.5",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-table": "^7.7.12",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "@vitest/ui": "latest",
+    "autoprefixer": "^10.4.7",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-prettier-config": "^1.0.1",
+    "husky": "^8.0.1",
+    "jsdom": "latest",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.6",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vitest": "latest"
+  }
+}
