@@ -23,7 +23,7 @@ Build with  **react-table v7** lightweigth hooks for building table/datagrid fro
 Clone the project
 
 ```bash
-  git clone https://github.com/khas1n/personal-project-ajaib
+  git clone https://github.com/khas1n/example-react-tablev7-redux-toolkit
 ```
 
 Go to the project directory
